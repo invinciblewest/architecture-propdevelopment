@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-kubectl apply -f rbac.yaml
+kubectl apply -f manifests/roles.yaml
